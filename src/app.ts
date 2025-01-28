@@ -30,7 +30,7 @@ sequelize.sync().then(() => {
 });
 
 app.use(cors({
-    origin: 'http://204.216.104.157', // Permitir solo el origen específico de tu frontend
+    origin:  `http://${process.env.HOST}`, // Permitir solo el origen específico de tu frontend
     methods: 'GET,POST,PUT,DELETE',   // Métodos permitidos
     credentials: true                 // Permitir el envío de cookies y cabeceras de autenticación
 }));
