@@ -1,0 +1,236 @@
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+Server listening on port 3002
+Salida comando: 
+balance: 0	stake: 697.62
+
+Salida comando: 
+balance: 0	stake: 87.97
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+{
+  VALIDATOR_ADDRESS_1: { balance: 0, stake: 697 },
+  VALIDATOR_ADDRESS_2: { balance: 0, stake: 87 },
+  VALIDATOR_ADDRESS_3: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_4: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_5: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_6: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_7: { balance: 0, stake: 0 }
+}
+Salida comando: 
+balance: 0	stake: 697.62
+
+Salida comando: 
+balance: 0	stake: 87.97
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+{
+  VALIDATOR_ADDRESS_1: { balance: 0, stake: 697 },
+  VALIDATOR_ADDRESS_2: { balance: 0, stake: 87 },
+  VALIDATOR_ADDRESS_3: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_4: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_5: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_6: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_7: { balance: 0, stake: 0 }
+}
+Salida comando: 
+balance: 0	stake: 697.62
+
+Salida comando: 
+balance: 0	stake: 87.97
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+{
+  VALIDATOR_ADDRESS_1: { balance: 0, stake: 697 },
+  VALIDATOR_ADDRESS_2: { balance: 0, stake: 87 },
+  VALIDATOR_ADDRESS_3: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_4: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_5: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_6: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_7: { balance: 0, stake: 0 }
+}
+Salida comando: 
+balance: 0	stake: 697.62
+
+Salida comando: 
+balance: 0	stake: 87.97
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+{
+  VALIDATOR_ADDRESS_1: { balance: 0, stake: 697 },
+  VALIDATOR_ADDRESS_2: { balance: 0, stake: 87 },
+  VALIDATOR_ADDRESS_3: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_4: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_5: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_6: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_7: { balance: 0, stake: 0 }
+}
+Salida comando: 
+balance: 0	stake: 697.62
+
+Salida comando: 
+balance: 0	stake: 87.97
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+{
+  VALIDATOR_ADDRESS_1: { balance: 0, stake: 697 },
+  VALIDATOR_ADDRESS_2: { balance: 0, stake: 87 },
+  VALIDATOR_ADDRESS_3: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_4: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_5: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_6: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_7: { balance: 0, stake: 0 }
+}
+Salida comando: 
+balance: 0	stake: 697.62
+
+Salida comando: 
+balance: 0	stake: 87.97
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+{
+  VALIDATOR_ADDRESS_1: { balance: 0, stake: 697 },
+  VALIDATOR_ADDRESS_2: { balance: 0, stake: 87 },
+  VALIDATOR_ADDRESS_3: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_4: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_5: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_6: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_7: { balance: 0, stake: 0 }
+}
+Salida comando: 
+balance: 0	stake: 697.62
+
+Salida comando: 
+balance: 0	stake: 87.97
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+Salida comando: 
+balance: 0	stake: 0
+
+{
+  VALIDATOR_ADDRESS_1: { balance: 0, stake: 697 },
+  VALIDATOR_ADDRESS_2: { balance: 0, stake: 87 },
+  VALIDATOR_ADDRESS_3: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_4: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_5: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_6: { balance: 0, stake: 0 },
+  VALIDATOR_ADDRESS_7: { balance: 0, stake: 0 }
+}

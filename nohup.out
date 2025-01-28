@@ -1,0 +1,1408 @@
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+que pustas
+Mensaje enviado antes
+Mensaje enviado
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 1.96
+  }
+}
+{
+  status: 'Transfered',
+  wallet: 'pc1z5qg9nxusgt0xzkjudrkgcpft6k5rghels73k5n',
+  amount: 1
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 1.96
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 7.97
+  }
+}
+{
+  status: 'Transfered',
+  wallet: 'pc1z5qg9nxusgt0xzkjudrkgcpft6k5rghels73k5n',
+  amount: 1
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 7.97
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 3.97
+  }
+}
+{
+  status: 'Transfered',
+  wallet: 'pc1z5qg9nxusgt0xzkjudrkgcpft6k5rghels73k5n',
+  amount: 1
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 3.97
+}
+que pustas
+Mensaje enviado antes
+Mensaje enviado
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 0.95
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 0.95
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 6.96
+  }
+}
+{
+  status: 'Transfered',
+  wallet: 'pc1z5qg9nxusgt0xzkjudrkgcpft6k5rghels73k5n',
+  amount: 1
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 6.96
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 2.96
+  }
+}
+{
+  status: 'Transfered',
+  wallet: 'pc1z5qg9nxusgt0xzkjudrkgcpft6k5rghels73k5n',
+  amount: 1
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 2.96
+}
+que pustas
+Mensaje enviado antes
+Mensaje enviado
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 0.95
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 0.95
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 5.95
+  }
+}
+{
+  status: 'Transfered',
+  wallet: 'pc1z5qg9nxusgt0xzkjudrkgcpft6k5rghels73k5n',
+  amount: 1
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 5.95
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 1.95
+  }
+}
+{
+  status: 'Transfered',
+  wallet: 'pc1z5qg9nxusgt0xzkjudrkgcpft6k5rghels73k5n',
+  amount: 1
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 1.95
+}
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 5.95
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 5.95
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 13.94
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 13.94
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 6.94
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 6.94
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 2.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 2.99
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 18.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 18.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 25.02
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 25.02
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 3.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 3.99
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 16.09
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 16.09
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 12
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 12
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 14.01
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 14.01
+}
+Ruta stake accedida
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 7.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 7.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 6.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 6.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 10.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 10.99
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 16.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 16.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 25.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 25.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 13
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 13
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 7.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 7.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 8.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 8.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 14
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 14
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 11.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 11.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 22.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 22.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 13.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 13.99
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 20
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 20
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 19
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 19
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 16.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 16.99
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 107.03
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 107.03
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 84.04
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 84.04
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 71.01
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 71.01
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 25.01
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 25.01
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 36.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 36.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 26.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 26.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 19.01
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 19.01
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 31.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 31.99
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 16.15
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 16.15
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 33.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 33.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 35.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 35.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 27.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 27.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 10.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 10.99
+}
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 17.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 17.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 28.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 28.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 13.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 13.99
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 43.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 43.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 41
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 41
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 40.01
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 40.01
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 34.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 34.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 26
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 26
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 26.01
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 26.01
+}
+Ruta stake accedida
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 72.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 72.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 66.02
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 66.02
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 42.09
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 42.09
+}
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 30
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 30
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 33.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 33.99
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 24
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 24
+}
+Error: Parse Error: Invalid method encountered
+Validador:  {
+  id: '1',
+  address: 'pc1pp6ga6nla4c3xcw8vpv909ca5dg4yfuk7pys6u8',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+    balance: 30.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zmrhlm7gdmkhcyfmaufkrfmfddwzq37cuzawdc4',
+  available: 30.99
+}
+Validador:  {
+  id: '2',
+  address: 'pc1pw964rj0nl5r9krg2jygz9w4eelnnqheppr5mhp',
+  balance: 0,
+  stake: 1000,
+  reward_address: {
+    address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+    balance: 41
+  }
+}
+Pactus disponible: {
+  address: 'pc1z8d6mcpelvd9xgm6xxhn8rhvlle8gu72zlh88g6',
+  available: 41
+}
+Validador:  {
+  id: '3',
+  address: 'pc1pjaxuk46kvwd64usxv74dqeszectxcmsg6hz0gr',
+  balance: 0,
+  stake: 850,
+  reward_address: {
+    address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+    balance: 21.99
+  }
+}
+Pactus disponible: {
+  address: 'pc1zv25r8z94tlht4hgfempexf06re6cqpz3mzkxga',
+  available: 21.99
+}
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002
+
+> pacstakingapp@1.0.0 start
+> nodemon ./src/app.ts
+
+[33m[nodemon] 3.1.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/app.ts`[39m
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+/home/ubuntu/pacstakingapp/src/routes/
+dashboard
+stake
+withdraw
+Server listening on port 3002

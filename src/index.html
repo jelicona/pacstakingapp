@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página con Botón</title>
+</head>
+<body>
+    <button id="solicitudBtn">Haz una petición</button>
+    <ul id="list"></ul>
+
+    <script>
+        document.getElementById('solicitudBtn').addEventListener('click', function() {
+            // Crea la conexión EventSource al hacer clic en el botón
+            const evtSource = new EventSource("/withdraw/all");
+
+            evtSource.onmessage = (event) => {
+                const newElement = document.createElement("li");
+                const eventList = document.getElementById("list");
+
+                newElement.textContent = `message: ${event.data}`;
+                eventList.appendChild(newElement);
+            };
+
+            evtSource.onerror = (error) => {
+                console.error("Error en la conexión SSE:", error);
+                evtSource.close();
+            };
+
+            // Desactivar el botón después de la primera conexión
+            this.disabled = true;
+            this.textContent = "Conexión establecida";
+        });
+    </script>
+</body>
+</html>
