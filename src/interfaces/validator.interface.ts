@@ -1,4 +1,4 @@
-export interface validatorInterface {
+export interface IValidatorInterface {
     id: string;
     address: string;
     balance: number;

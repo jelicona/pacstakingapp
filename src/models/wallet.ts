@@ -10,7 +10,7 @@ class Wallet extends Model {
   public index!: number;
   public balance!: number;
   public staking!: number;
-  public status!: 'BOND' | 'UNBOND' | 'PENDING_UNSTAKE';
+  public status!: 'BOND' | 'UNBOND' | 'PENDING_UNSTAKE' | null;
 }
 
 Wallet.init({
@@ -20,7 +20,7 @@ Wallet.init({
     primaryKey: true,
   },
   type: {
-    type: DataTypes.STRING,
+    type: DataTypes.ENUM('REWARD', 'VALIDATOR', 'EXTERNAL'),
     allowNull: false,
   },
   name: {
@@ -59,9 +59,9 @@ Wallet.init({
     },],
   hooks: {
     beforeCreate: (wallet: Wallet) => {
-      wallet.balance = 0;
-      wallet.staking = 0;
-      wallet.status = 'BOND';
+      if (wallet.type == 'VALIDATOR') wallet.balance = 0;
+      //wallet.staking = 0;
+      if (wallet.type == 'REWARD') wallet.status = null;
     }
   }
 });
