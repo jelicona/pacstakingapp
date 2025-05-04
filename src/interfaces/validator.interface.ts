@@ -2,10 +2,10 @@ export interface IValidatorInterface {
     id: string;
     address: string;
     balance: number;
-    stake: number;
-    reward_address: {
+    stake: string;
+    reward_wallet: {
         address: string;
-        balance: number;
-    };
-};
+        amount: number;
+    }
+}
 

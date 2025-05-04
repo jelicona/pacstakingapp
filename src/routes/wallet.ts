@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import * as RewardWaleltController from '../controllers/wallet/crud/reward/reward_wallet_crud.controller';
-
+import * as SatkingWaleltController from '../controllers/wallet/crud/staking/staking_wallet_crud.controller';
 const router = Router();
 
 router.get('/', (req, res) => { 
@@ -12,6 +12,11 @@ router.post("/reward/create",/*asignar middleware validation*/ RewardWaleltContr
 router.post("/reward/update", RewardWaleltController.updateRewardWallet);
 router.delete("/reward/delete/:walletId", RewardWaleltController.deleteRewardWallet);
 router.post("/reward/read", RewardWaleltController.getRewardWallet);
+
+router.post("/validator/create", SatkingWaleltController.createStakingWallet);
+router.post("/validator/update", SatkingWaleltController.updateStakingWallet);
+router.delete("/validator/delete/:walletId", SatkingWaleltController.deleteStakingWallet);
+router.post("/validator/read", SatkingWaleltController.getStakingWallet);
 
 
 export { router };

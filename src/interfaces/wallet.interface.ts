@@ -1,4 +1,4 @@
-export interface IRewardInterface {
+export interface IWalletInterface {
     id: string;
     type: string;
     name: string;

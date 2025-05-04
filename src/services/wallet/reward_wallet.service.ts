@@ -1,16 +1,17 @@
-import { IRewardInterface } from "../../interfaces/reward.interface";
+import { IWalletInterface } from "../../interfaces/wallet.interface";
 import Wallet from "../../models/wallet";
+import boom from '@hapi/boom';
 
 
 class RewardWalletService {
   constructor() {
-    // Initialize any properties or dependencies here
+
   }
 
 
-  // Method to add rewards to the wallet
-  async addRewardWallet(params: IRewardInterface): Promise<{message: string, data: Wallet} | undefined> {
-      // Logic to add the reward wallet
+  // Method to add new reward wallet
+  async addRewardWallet(params: IWalletInterface): Promise<{message: string, data: Wallet} | undefined> {
+
       try {
           const walletAddress = await Wallet.findOne({
               where: {
@@ -18,7 +19,7 @@ class RewardWalletService {
               }
           });
           
-          if (walletAddress) throw new Error ("Wallet already exists");
+          if (walletAddress) throw boom.conflict("Wallet already exists", params.address);
     
         const newWallet = await Wallet.create({
             type: 'Reward',
@@ -42,38 +43,46 @@ class RewardWalletService {
   }
     
   async updateRewardWallet(params:any): Promise<any> {
-    // Logic to update the user's wallet
+
     try {
       const walletId = params.id; // Assuming userId is passed in params
       const wallet = await Wallet.findOne({
-        where: {
-          id: walletId,
-        },
-        
-      });
+        where: { id: walletId },
+        });
 
-      if (!wallet) throw new Error("Wallet not found");
+      if (!wallet) throw boom.notFound("Wallet not found", walletId);
     
 
-      const newWalletData = { ...wallet, ...params };
+      const newWalletData = {
+        ...wallet,
+        ...params
+      };
       // Merge existing wallet data with new params
       await Wallet.update(newWalletData, {
         where: {
           id: walletId,
         },
+      }).then(() => {
+        console.log("Wallet updated successfully");
+      }).catch((error) => {
+        console.error("Error updating wallet:", error);
+        throw boom.internal("Error updating wallet", error.message);
       });
+
       console.log(`Updated ${wallet} with ${newWalletData}`);
       await wallet.save(); // Save the changes
       return {
         message: "Reward wallet updated successfully",
         data: newWalletData,
       };
+
     } catch (error) {
       console.error("Error updating reward wallet:", error);
       throw error;
     }
 
   }
+
   async deleteRewardWallet(userId: string): Promise<Record<string, any>> {
     try {
       const wallet = await Wallet.findOne({
@@ -82,9 +91,13 @@ class RewardWalletService {
         },
       });
 
-      if (!wallet) throw new Error("Wallet not found");
+      if (!wallet) throw boom.notFound("Wallet not found", userId);
 
-      await wallet.destroy();
+      await wallet.destroy().catch((error) => {
+        console.error("Error deleting wallet:", error);
+        throw boom.internal("Error deleting wallet", error.message);
+      });
+
       return {
         message: "Reward wallet deleted successfully",
         data: wallet,
@@ -95,14 +108,8 @@ class RewardWalletService {
     }
     
   }
-  async getAllRewardWallets(): Promise<any[]> {
-    // Logic to fetch all reward wallets
-    // This is a placeholder implementation
-    return [
-      { userId: 'user1', balance: 100 },
-      { userId: 'user2', balance: 200 },
-    ]; // Replace with actual logic
-  }
+
+
   async getRewardWalletByAddress(walletAddress: string): Promise<any> {
     try {
       const wallet = await Wallet.findOne({
@@ -111,8 +118,9 @@ class RewardWalletService {
         },
       })
 
-      if (!wallet) throw new Error("Wallet not found");
-
+      //if (!wallet) throw new Error("Wallet not found");
+      if (!wallet) throw boom.notFound("Wallet not found",  walletAddress );
+      
       return {
         message: "Reward wallet fetched successfully",
         data: wallet,

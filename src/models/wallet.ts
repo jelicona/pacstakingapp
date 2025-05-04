@@ -4,7 +4,7 @@ import e from 'express';
 
 class Wallet extends Model {
   public id!: number;
-  public type!: string;
+  public type!: 'REWARD' | 'VALIDATOR' | 'EXTERNAL';
   public name!: string;
   public address!: string;
   public index!: number;
