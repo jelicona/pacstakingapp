@@ -1,6 +1,6 @@
 import { DataTypes, Model } from 'sequelize';
 import sequelize from '../config/database';
-import e from 'express';
+// import of express was unused and caused lint warnings, removed
 
 class Wallet extends Model {
   public id!: number;
@@ -45,7 +45,8 @@ Wallet.init({
     allowNull: true,
   },
   status: {
-    type: DataTypes.ENUM('BOND', 'UNBOND', 'PENDINDG_UNSTAKE'),
+    // fixed misspelled enum value 'PENDINDG_UNSTAKE'
+    type: DataTypes.ENUM('BOND', 'UNBOND', 'PENDING_UNSTAKE'),
     allowNull: true,
   },
 
