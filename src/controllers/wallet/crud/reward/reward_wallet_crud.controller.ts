@@ -10,7 +10,7 @@ const getRewardWallet = async (
   next: NextFunction
 ) => {
   try {
-    const walletAddress = req.body.address;
+    const walletAddress = req.params.walletAddress;
     const wallet = await RewardWalletService.getRewardWalletByAddress(
       walletAddress
     );
@@ -25,6 +25,7 @@ const getRewardWallet = async (
     next(error);
   }
 };
+
 
 const createRewardWallet = async (
   req: Request,
@@ -51,16 +52,16 @@ const updateRewardWallet = async (
 ) => {
   try {
     const data = req.body;
+    if (Object.keys(data).length == 0) res.sendStatus(204)
+    const walletId: String = req.params.walletId
+    const result = await RewardWalletService.updateRewardWallet({ walletId, ...data });
 
-    const result = await RewardWalletService.updateRewardWallet(data);
-
-    const walletInstance = result.data;
-    const updated = walletInstance.dataValues;
+    const updatedWallet = result.data;
 
     const walletChanges: Record<string, any> = Object.keys(data).reduce(
       (acc: any, key) => {
-        if (key in updated) {
-          acc[key] = updated[key];
+        if (key in updatedWallet) {
+          acc[key] = updatedWallet[key];
         }
         return acc;
       },
@@ -100,4 +101,9 @@ const deleteRewardWallet = async (
 };
     
 
-export { createRewardWallet, updateRewardWallet, deleteRewardWallet, getRewardWallet };
+export {
+  createRewardWallet,
+  updateRewardWallet,
+  deleteRewardWallet,
+  getRewardWallet
+};

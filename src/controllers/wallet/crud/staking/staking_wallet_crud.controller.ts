@@ -45,16 +45,17 @@ const updateStakingWallet = async (
 ) => {
   try {
     const data = req.body;
+    const walletId: string = req.params.walletId
+    const result = await StakingWalletService.updateStakingWallet({ walletId, ...data });
 
-    const result = await StakingWalletService.updateStakingWallet(data);
-
-    const walletInstance = result.data;
-    const updated = walletInstance.dataValues;
+    /*const walletInstance = result.data;
+    const updated = walletInstance.dataValues;*/
+    const updatedWallet = result.data;
 
     const walletChanges: Record<string, any> = Object.keys(data).reduce(
       (acc: any, key) => {
-        if (key in updated) {
-          acc[key] = updated[key];
+        if (key in updatedWallet) {
+          acc[key] = updatedWallet[key];
         }
         return acc;
       }, {});

@@ -1,43 +1,60 @@
-import "dotenv/config"
-import express from "express"
-import cors from "cors"
-import { router } from "./routes"
+import "dotenv/config";
+import express from "express";
+import helmet from "helmet";
+import cors from "cors";
+import morgan from "morgan";
+import path from "path";
+
+import { router } from "./routes";
 import { syncDatabase } from "./config/initdb";
-import { logError, handleError, boomErrorHandler }  from "./middlewares/global/errorhandler.middleware";
-import boom from '@hapi/boom';
+import {
+  boomErrorHandler,
+  logError,
+  handleError,
+} from "./middlewares/global/errorhandler.middleware";
+
+const PORT = Number(process.env.PORT) || 3001;
+const app = express();
 
 
-const PORT = Number(process.env.PORT) || 3001; 
+app.use(helmet());
+app.use(morgan("tiny"));
 
-const app = express()
-app.use(cors())
-app.use(express.json())
-app.use(router); 
 
-syncDatabase()
-  .then(() => {
-    console.log("Database sync complete!");
+app.use(
+  cors({
+    origin: `http://${process.env.HOST}`,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
   })
-  .catch((error) => {
-    console.error("Error during database sync:", error);
+);
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+
+app.use(express.static(path.join(__dirname, "public")));
+app.use("/api", router);
+app.get("/health", (req, res) => res.send("OK"));
+app.use((req, res, next) => {
+  res.status(404).json({
+    message: 'Resource not found'
   });
-
-app.use(cors({
-    origin:  `http://${process.env.HOST}`, // Permitir solo el origen específico de tu frontend
-    methods: 'GET,POST,PUT,DELETE',   // Métodos permitidos
-    credentials: true                 // Permitir el envío de cookies y cabeceras de autenticación
-}));
-
-app.use(boomErrorHandler);
-app.use(logError, handleError);
-
-
-app.listen(PORT, '0.0.0.0' ,  () => {
-    console.log(`Server listening on port ${PORT}`);
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
-}); 
 
+app.use(boomErrorHandler);
+app.use(logError);
+app.use(handleError);
 
+(async function bootstrap() {
+  try {
+    await syncDatabase();
+    console.log("🔗 DB sincronizada correctamente");
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`🚀 Servidor en http://localhost:${PORT}`);
+    });
+  } catch (error) {
+    console.error("❌ Falló la sincronización de la DB:", error);
+    process.exit(1);
+  }
+})();

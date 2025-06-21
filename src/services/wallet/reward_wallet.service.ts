@@ -45,13 +45,12 @@ class RewardWalletService {
   async updateRewardWallet(params:any): Promise<any> {
 
     try {
-      const walletId = params.id; // Assuming userId is passed in params
+      const walletId = params.walletId; // Assuming userId is passed in params
       const wallet = await Wallet.findOne({
         where: { id: walletId },
         });
 
       if (!wallet) throw boom.notFound("Wallet not found", walletId);
-    
 
       const newWalletData = {
         ...wallet,
@@ -62,21 +61,30 @@ class RewardWalletService {
         where: {
           id: walletId,
         },
-      }).then(() => {
-        console.log("Wallet updated successfully");
-      }).catch((error) => {
-        console.error("Error updating wallet:", error);
-        throw boom.internal("Error updating wallet", error.message);
+      }).then().catch((error) => {
+        if(error.name === "SequelizeUniqueConstraintError") {
+          throw boom.conflict("El address ya existe", error);
+        }
+        console.error("Error updating reward wallet:", error);
+        throw boom.internal("Internal Server Error", error.message);
       });
 
-      console.log(`Updated ${wallet} with ${newWalletData}`);
+      console.log(
+        `Updated ${JSON.stringify(wallet.toJSON())} with ${JSON.stringify(
+          newWalletData
+        )}`
+      );
       await wallet.save(); // Save the changes
       return {
         message: "Reward wallet updated successfully",
         data: newWalletData,
       };
 
-    } catch (error) {
+    } catch (error: any) {
+      if (error.code === "ER_DUP_ENTRY") {
+        // Si se detecta un error de duplicado, se lanza un error conflict (409) con boom
+        throw boom.conflict("El address ya existe", error);
+      }
       console.error("Error updating reward wallet:", error);
       throw error;
     }

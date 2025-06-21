@@ -48,7 +48,7 @@ class StakingWalletService {
   async updateStakingWallet(params: any): Promise<any> {
 
     try {
-      const walletId = params.id; 
+      const walletId = params.walletId; 
       const wallet = await Wallet.findOne({
         where: {
           id: walletId,
