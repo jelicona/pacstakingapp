@@ -12,7 +12,7 @@ const walletValidation = (schema: ObjectSchema,method: string, walletType: strin
             console.log("VALIDATION VALUE: ", value);
             console.log("VALIDATION ERROR: ", error);
 
-            if (error) return next(boom.badRequest(error.details[0].message, error.details));
+            if (error) throw next(boom.badRequest(error.details[0].message, error.details));
 
 
             req[property] = value;

@@ -1,4 +1,5 @@
 import sequelize from './database';
+import Config from '../models/config.model';
 import Wallet from '../models/wallet';
 import Transaction from '../models/transaction';
 import Schedule from '../models/schedule';
@@ -8,10 +9,11 @@ import { IValidatorInterface } from '../interfaces/validator.interface';
 import { get } from 'mongoose';
 
 export async function syncDatabase() {
-  Wallet
-  Transaction
-  Schedule
-  WalletHistory
+  Wallet;
+  Transaction;
+  Schedule;
+  WalletHistory;
+  Config;
   try {
     await sequelize.sync();
     console.log("Database & tables created!");

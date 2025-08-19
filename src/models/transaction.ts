@@ -67,6 +67,11 @@ Transaction.init({
   hooks: {
     beforeCreate: (transaction: Transaction) => {
       transaction.status_path = 'INIT';
+    },
+    beforeUpdate: (transaction: Transaction) => {
+      if (transaction.status_path) {
+        transaction.status_path = `${transaction.status_path}.MODIFIED`;
+      }
     }
   },
 }); 
