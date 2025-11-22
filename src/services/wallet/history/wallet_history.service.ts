@@ -1,8 +1,9 @@
 import GetRewardBalance from "../../global/getrewardbalance.service";
 import { Request, Response, NextFunction } from "express";
 import WalletHistory from "../../../models/walletHistory";
-import Wallet from "../../../models/wallet";'
+import Wallet from "../../../models/wallet";
 import boom from "@hapi/boom";
+
 
 
 class BalanceHistoryService {
@@ -12,24 +13,21 @@ class BalanceHistoryService {
     }
     
     getBalanceHistory = async (time: number, walletAddress: string) => {
-        try {
 
-            const walletId = await Wallet.findOne({
+            const walletId = (
+              await Wallet.findOne({
                 where: { address: walletAddress },
-            }).then(wallet => wallet?.id);
+                attributes: ["id"],
+              })
+            )?.id;
 
-            const lastDate = await WalletHistory.findOne({
-                where: {
-                    walletId
-                }
-            }).then(date => date?.date_ejecuted);   
-
+            const record = await WalletHistory.findOne({ where: { walletId } });
+            const lastDate = record?.date_ejecuted;
+            const valueAtDate = record?.valueatdate;
             
-
-        }
-        catch (err: any) {
-            throw boom.internal("Error getting wallet balance history", err.message);
-        }
+            if (!walletId) throw boom.notFound("Wallet not found");
+            if (!lastDate || !valueAtDate) throw boom.notFound("No balance history found for this wallet");
+            return { lastDate, valueAtDate };
     }
 
 
@@ -38,24 +36,30 @@ class BalanceHistoryService {
     
             if (!walletAddress) throw boom.badRequest("Wallet address is required");
 
+            const walletid = (await Wallet.findOne({
+                where: { address: walletAddress },
+            }))?.id
+
+
             const balanceService = new GetRewardBalance(walletAddress);
             const balance = await balanceService.getBalance();
 
             const walletHistory = await WalletHistory.create({
-                wallet_address: walletAddress,
-                balance: balance.data,
-                timestamp: new Date(),
+                walletid ,
+                valueatdate: balance.data,
+                date_ejecuted: new Date(),
             });
 
-            res.status(200).json({ balance: balance.data });
-        } catch (err: any) {
+            return walletHistory;
 
+        } catch (err: any) {
+            throw boom.internal("Failed to create wallet balance history record", err.message)
         }
     }
 
     setFrecuency = async (frecuency: number) => {
         try {
-
+            // AGREGAR LOGICA CON WORKER
         } catch (err: any) {
 
         }

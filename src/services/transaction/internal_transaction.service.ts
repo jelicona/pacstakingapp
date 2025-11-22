@@ -3,7 +3,6 @@ import Wallet from "../../models/wallet"
 import boom from "@hapi/boom";
 import GetRewardBalance from '../global/getrewardbalance.service';
 import { where } from "sequelize";
-import { Boom } from '@hapi/boom';
 
 class InternalTransactionService {
 

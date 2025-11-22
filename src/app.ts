@@ -12,6 +12,9 @@ import {
   logError,
   handleError,
 } from "./middlewares/global/errorhandler.middleware";
+import jobSchedulerService from './background/scheduler';
+import { initializeWorkers, shutdownWorkers } from './background/workers'; 
+import bullBoardAdapter from "./background/qdashboard";
 
 const PORT = Number(process.env.PORT) || 3001;
 const app = express();
@@ -19,6 +22,9 @@ const app = express();
 
 app.use(helmet());
 app.use(morgan("tiny"));
+app.use('/admin/queues', bullBoardAdapter.getRouter());
+
+// Graceful shutdown
 
 
 app.use(
@@ -49,6 +55,8 @@ app.use(handleError);
 (async function bootstrap() {
   try {
     await syncDatabase();
+    await initializeWorkers();
+    await jobSchedulerService.start();
     console.log("🔗 DB sincronizada correctamente");
     app.listen(PORT, "0.0.0.0", () => {
       console.log(`🚀 Servidor en http://localhost:${PORT}`);
